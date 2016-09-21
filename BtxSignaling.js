@@ -1,4 +1,5 @@
 /**
+ * @license
  * Created by Karina Romero on 26/06/2016.
  * Copyright © 2016 Sandcode Software S.A. de C.V. All rights reserved.
  */
@@ -15,6 +16,7 @@ wss.on('connection',function (connection) {
 
         try{
             data=JSON.parse(message);
+            console.log(data);
         }catch (e){
             console.log("Error parse JSON");
             data={};
