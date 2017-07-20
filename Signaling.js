@@ -1,7 +1,5 @@
 /**
- * @license
  * Created by Karina Romero on 26/06/2016.
- * Copyright © 2016 Sandcode Software S.A. de C.V. All rights reserved.
  */
 
 var users={};

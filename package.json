@@ -1,8 +1,8 @@
 {
-  "name": "btx-signaling",
+  "name": "signaling",
   "version": "1.0.0",
-  "description": "A signaling for BtxLive",
-  "main": "BtxSignaling.js",
+  "description": "A signaling for a WebRTC app",
+  "main": "Signaling.js",
   "dependencies": {
     "uglify-js": "^2.7.3",
     "ws": "^1.1.1"
@@ -13,12 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/sandcode/btx-signaling.git"
+    "url": ""
   },
-  "author": "Karina Romero",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/sandcode/btx-signaling/issues"
-  },
-  "homepage": "https://gitlab.com/sandcode/btx-signaling#README"
+  "author": "Karina Romero"
 }
